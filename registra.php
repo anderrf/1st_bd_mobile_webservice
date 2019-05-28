@@ -1,7 +1,7 @@
 <?php
     try{
         $conexao = mysqli_connect("localhost", "andersonrf", "", "bd_mobile");
-                                    //Servidor  usuário     senha   banco
+                                    //Servidor  usuï¿½rio     senha   banco
         $nome = $_POST['nome'];
         $email = $_POST['email'];
         $query = "INSERT INTO tb_pessoa VALUES (NULL ,  '$nome',  '$email');";

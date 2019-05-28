@@ -1,7 +1,7 @@
 <?php
     try{
         $conexao = mysqli_connect("localhost", "andersonrf", "", "bd_mobile");
-                                    //Servidor  usuário     senha   banco
+                                    //Servidor  usuï¿½rio     senha   banco
         
         $query = "SELECT * FROM tb_pessoa ORDER BY cd_pessoa ASC";
         
